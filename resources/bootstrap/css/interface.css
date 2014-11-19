@@ -1,0 +1,314 @@
+/*
+	SEO Studio --------------------------------
+	Bootstrap Colors and Theme
+	This is the base code for changing colors.
+
+	Template Name: Basic;
+	Template Author: Webfector;
+
+	To be used with version 3.0.0 of SEO Studio.
+*/
+
+/* Homepage and Structures */
+
+body {
+	background: #eee;
+}
+
+.navbar {
+	background: #34495E;
+	margin-bottom: 0px;
+}
+.navbar.navbar-inverse .navbar-brand {
+	color: #ddd;
+	padding: 25px 15px;
+}
+.navbar.navbar-inverse .navbar-brand:hover {
+	color: #fff;
+}
+.navbar .nav>li>a { 
+	padding: 25px 15px;
+}
+@media (max-width: 767px) {
+	.navbar .nav>li>a {
+		padding: 10px 15px;
+	}
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #223140;
+}
+.navbar-inverse {
+	border-color: #223140;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ddd;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+}
+.pageHeader {
+	background: #2A5E9F url('../../images/stripe.png');
+	color: #fff;
+	border-bottom: 1px solid #0F376A;
+	margin-bottom: 15px;
+}
+.frontPageBanner {
+	background: #2A5E9F;
+	color: #fff;
+	border-bottom: 1px solid #0F376A;
+}
+.frontPageBanner .btn {
+	background: #0F376A;
+	border: 1px solid #0B3366;
+}
+.frontPageBanner .btn:hover {
+	background: #0B3366;
+}
+.panel-primary {
+	border-color: #34495E;
+}
+.panel-primary>.panel-heading {
+	color: #ffffff;
+	background-color: #34495E;
+	border-color: #34495E;
+}
+.callToAction {
+	background: #3A4C72;
+}
+.loginBox {
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.toolPaneHorizontal:hover {
+	border: 1px solid #ddd;
+	background: #fff;
+}
+hr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+}
+
+/* Buttons */
+
+.btn.btn-primary {
+	background: #34495E;
+	border-color: #34495E;
+}
+.btn.btn-info {
+	background: #2A5E9F;
+	border-color: #2A5E9F;
+}
+
+/*
+	Stationary Customizations
+	These are things we changed in Bootstrap, but they should not be changed for theming.
+*/
+
+.dropdown-menu > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.428571429;
+	color: #333333;
+	white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #999999;
+}
+.navbar-toggle {
+	margin-top: 17px;
+	background: #223140;
+	border-color: #223140;
+}
+.navbar-brand img {
+	height: 35px;
+	margin-top: -11px;
+	margin-bottom: -8px;
+}
+.pageHeader {
+	padding: 35px 25px;
+	margin-bottom: 30px;
+}
+.pageHeader h2 {
+	margin: 0;
+}
+
+.frontPageBanner {
+	padding: 45px 25px;
+}
+.frontPageBanner h1 {
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.frontPageBanner p {
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+.frontPageBanner .btn {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 13px 28px;
+}
+
+.boxed-well {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 0px;
+}
+.boxed-well:hover { cursor: pointer; }
+.boxed-well a { text-decoration: none; color: inherit; }
+
+.boxed-well .tool-icon {
+	float: left;
+	padding: 16px;
+}
+.boxed-well .tool-info {
+	float: left;
+	padding-top: 21px;
+	font-size: 16px;
+	padding-left: 21px;
+	font-weight: 400;
+}
+.homepagefeature {
+	padding: 30px 25px;
+}
+.homepagefeature img {
+	margin-bottom: 15px;
+}
+.homepagefeature .btn {
+	margin-top: 15px;
+}
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.panel, .panel-primary>.panel-heading {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+input[type=text], input[type=password], input[type=email] {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.btn {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.callToAction {
+	margin-bottom: 30px;
+	padding: 35px 25px;
+}
+.callToAction h3 {
+	color: #fff;
+	margin: 0px;
+	font-size: 22px;
+}
+.callToAction a.btn {
+	padding: 12px 25px;
+	font-size: 16px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+.toolPaneListContainer {
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+.toolPaneHorizontal {
+	border: 1px solid transparent;
+	padding: 20px 10px 20px;
+	display: inline-block;
+	width: 145px;
+	text-align: center;
+	margin-bottom: 4px;
+	vertical-align: top;
+}
+.toolPaneHorizontal a, .toolPaneHorizontal a:hover {
+	text-decoration: none;
+}
+.toolPaneIcon {
+	margin-bottom: 10px;
+}
+.toolPaneIcon img {
+	height: 55px;
+	width: 55px;
+}
+.toolPaneInformation {
+	color: #222;
+}
+.toolPaneInformation h4 {
+	color: #222;
+	font-size: 12px;
+	margin: 20px 0 0px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.footer {
+	background: #333;
+	padding: 40px 20px;
+	color: #eee;
+	border-top: 1px solid #000;
+	margin-top: 35px;
+}
+.footer a {
+	color: #fff;
+}
+@media (max-width: 767px) {
+	h4,h3,.toolPaneListContainer {
+		text-align: center;
+	}
+}
+.loginBox {
+	padding: 25px 30px;
+}
+.placeholder {
+	color: #aaa;
+}
+
+.resultsBox1 {
+	background: #34495E;
+	color: #fff;
+	border: 1px solid #34495E;
+	text-align: center;
+	padding: 45px 25px;
+	margin-bottom: 20px;
+}
+.resultsBox1 .graduatedText {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.resultsBox1 .bigNumber {
+	font-size: 48px;
+	padding: 20px 0;
+}
+input.pb {
+	margin-bottom: 10px;
+}
+
+/* Alert Boxes */
+
+.errorBox {
+	padding: 15px 15px;
+	border: 1px solid #ff3d3d;
+	border-bottom: 3px solid #ff3d3d;
+	margin-bottom: 30px;
+	color: #700400;
+}

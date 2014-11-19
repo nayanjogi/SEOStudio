@@ -1,0 +1,208 @@
+/*
+	
+	Altusia Admin Panel
+	Note: Altusia is a creation of Webfector.
+	
+*/
+
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.ctlAltusiaPanelHeader {
+	background-color: #0086ED;
+}
+.ctlAltusiaPanelLogoutButton {
+	background-color: #0d76c6;
+	display: block;
+	height: 70px;
+	width: 70px;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding-top: 18px;
+	padding-left: 2px;
+}
+
+.ctlAltusiaPanelTitle {
+	background-color: #313b44;
+	color: #fff;
+	font-size: 21px;
+}
+
+.ctlAltusiaMain {
+
+}
+
+.ctlAltusiaNavigation {
+	background-color: #22282d;
+
+	padding: 20px 30px 30px;
+	overflow-y: auto;
+
+	font-size: 14px;
+	min-width: 200px;
+}
+
+.ctlAltusiaBody {
+	padding: 20px 50px 20px 20px;
+	background-color: #fff;
+
+	font-size: 15px;
+	z-index: 5;
+}
+
+.ctlAltusiaNavigationHeader {
+	color: #0988ea;
+	font-size: 16px;
+	margin: 20px 0;
+}
+.ctlAltusiaNavigationHeader:first-child {
+	margin-top: 10px;
+}
+.ctlAltusiaNavigationItem {
+	color: #888;
+	padding-left: 5px;
+	display: block;
+	margin-bottom: 3px;
+}
+.ctlAltusiaNavigationItem:hover {
+	color: #aaa;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+.pleaseRateBox {
+	background: #e7f4e5;
+	padding: 10px 30px 20px;
+	margin-left: -20px;
+	margin-right: -50px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+
+	border-bottom: 1px solid #d4ebcf;
+}
+
+/* Module Boxes */
+
+.moduleBox {
+	background: #fff;
+	border: 1px solid #ddd;
+
+	margin-bottom: 20px;
+}
+.moduleBoxTitle {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+
+	background-image: url('../img/stripe.png');
+	background-repeat: repeat;
+}
+.moduleBoxTitle strong {
+	display: block;
+
+	padding: 10px 15px 8px;
+}
+.moduleBoxTitle div {
+	float: right;
+	text-align: right;
+}
+.moduleBoxTitle div a {
+	display: inline-block;
+
+	border-left: 1px solid #ddd;
+	padding: 9px 15px;
+
+	background: #efefef;
+}
+.moduleBoxTitle div a:hover {
+	text-decoration: none;
+	background: #fff;
+}
+.moduleBoxBody {
+	padding: 12px 15px 10px;
+}
+
+/* Check list */
+
+.checklistItem {
+	padding: 8px 25px;
+	border-bottom: 1px solid #eee;
+
+	color: #777;
+}
+.checklistItem table tr td p {
+	margin-bottom: 0px;
+}
+.checklistItem table tr td {
+	text-align: center;
+}
+
+/* Main Table */
+
+.MainFrame {
+	border: 0px;
+	margin: 0px;
+}
+.MainFrame tr {
+	vertical-align: top;
+}
+.MainFrame td {
+	padding: 0px;
+}
+
+
+.HomePageBuilderElement.ElementBody {
+	background: #2A5E9F;
+	padding: 15px;
+}
+.HomePageBuilderElement.ElementHeader {
+	background: #444;
+	padding: 15px;
+	color: #fff;
+}
+.HomePageBuilderElement.ElementCallToAction {
+	background: #3A4C72;
+	padding: 15px;
+}
+
+.HomePageBuilderElement input[type=text] {
+	border: 1px solid #222;
+	padding: 5px 16px;
+	width: 100%;
+}
+.HomePageBuilderElement textarea {
+	border: 1px solid #222;
+	padding: 5px 16px;
+	width: 100%;
+	margin-top: 10px;
+	height: 105px;
+}
+
+.Toggler {
+	height: 28px;
+	background: #333;
+	width: 100px;
+	cursor: pointer;
+}
+.Toggler.ToggledOn .ToggleBeam {
+	height: 28px;
+	width: 50px;
+	background: #0988EA;
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 6px;
+}
+.Toggler.ToggledOff .ToggleBeam {
+	height: 28px;
+	width: 50px;
+	background: #666;
+	color: #aaa;
+	text-align: center;
+	font-size: 13px;
+	padding-top: 6px;
+	margin-left: 50px;
+}

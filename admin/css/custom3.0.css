@@ -1,0 +1,115 @@
+.header {
+	padding: 30px 15px 30px 25px;
+}
+
+/*
+	The below CSS is migrated from SEO Studio 2.7.5
+	(direct: /admin/css/custom.css -> /admin/css/custom3.0.css)
+
+	The code was found to be required to support existing features.
+*/
+
+.configurationBigRow {
+	border-left: 3px solid #BCE8F1;
+	padding: 20px;
+	background: #F4F8FA;
+}
+.configurationBigRow h4 {
+	color: #34789a;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.configurationRow {
+	padding: 20px;
+}
+.configurationRow.nb {
+	border-bottom: 0px;
+}
+
+.configLabel {
+	padding-right: 20px;
+}
+.configLabel strong {
+	font-weight: bold;
+	color: #222;
+}
+.configItem input[type=text] {
+	min-width: 400px;
+}
+.configurationRow table tr td {
+	padding-bottom: 10px !important;
+}
+
+.bs-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout-danger {
+  background-color: #fdf7f7;
+  border-color: #eed3d7;
+}
+.bs-callout-danger h4 {
+  color: #b94a48;
+}
+
+/* 
+	End Migration
+*/
+
+.reminderBox {
+	background: #f5f5f5;
+	padding: 35px;
+	border: 1px solid #ddd;
+
+	margin-bottom: 25px;
+}
+.reminderBox h4, .reminderBox h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.reminderBox p {
+	color: #666;
+	font-size: 14px;
+	line-height: 21px;
+}
+.reminderBox p:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 20px;
+}
+
+
+.noticeBox {
+	background: #FDF7F7;
+	padding: 35px;
+	border: 1px solid #EED3D7;
+	color: #333;
+	margin: 25px 0;
+}
+.noticeBox h4, .noticeBox h3 {
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #b94a48;
+}
+.noticeBox p {
+	font-size: 14px;
+	line-height: 21px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+}
+.noticeBox p:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 20px;
+}
